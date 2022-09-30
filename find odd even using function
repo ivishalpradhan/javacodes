@@ -1,0 +1,32 @@
+package javabasic;
+import java.util.*;
+
+public class functions {
+	
+
+	public static void main(String args[]) {
+		
+		Scanner sc = new Scanner(System.in);
+		int num;
+		System.out.println("enter any number:");
+     	num = sc.nextInt();
+		if(iseven(num)) {
+			System.out.println("number is even");
+		}
+		else
+		{
+			System.out.println("number is odd");
+		}
+		
+	}
+	public static boolean iseven(int num) {
+		if(num%2==0) {
+			return true;
+			
+		}
+		else {
+			return false;
+		}
+	}
+
+	}
