@@ -1,0 +1,25 @@
+package javabasic;
+import java.util.*;
+
+public class arrayscc {
+
+	public static void main(String[] args) {
+		int marks[]= new int[4];
+		System.out.println(" enter marks :-");
+		Scanner sc=new Scanner(System.in);
+		marks[0]=sc.nextInt();//phy
+		marks[1]=sc.nextInt();//che
+		marks[2]=sc.nextInt();//math
+		marks[3]=sc.nextInt();//eng
+		
+		System.out.println("phy :"+marks[0]);
+		System.out.println("che:"+marks[1]);
+		System.out.println("che:"+marks[2]);
+		System.out.println("che:"+marks[3]);
+		
+		int percentage = (marks[0]+marks[1]+marks[2]+marks[3])/4;
+		System.out.println("percentage="+percentage +"%");
+		
+	}
+
+}
