@@ -1,0 +1,28 @@
+package javabasic;
+import java.util.*;
+
+//find key using linear search
+public class arrayscc {
+	public static int linearsearch(int numbers[],int key) {
+		for(int i=1; i<numbers.length; i++) {
+			if(numbers[i]==key) {
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	public static void main(String args[]){
+		int numbers[]= { 5,10,15,65,45,25};
+		int key=25;
+		
+		int index=linearsearch(numbers,key);
+		if(index == -1) {
+			System.out.println("not found");
+			
+		}else {
+			System.out.println("key  is at index:"+index);
+		}
+}
+	}
+
