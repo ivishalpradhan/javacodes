@@ -1,7 +1,6 @@
 package javabasic;
 import java.util.*;
 
-//binary search 
 public class arrayscc {
 	public static void printsubarrays(int numbers[]) { //for total pairs
 		int ts=0; //total subarrays
